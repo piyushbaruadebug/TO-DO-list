@@ -36,12 +36,8 @@ Modern-ToDo-List/
 │── README.md
 ```
 
-
-
-
-
-
-
+🌐 Live Demo
+here: https://piyushbaruadebug.github.io/TO-DO-list/
 
 
 ## 🔮 Future Improvements
@@ -59,9 +55,9 @@ Modern-ToDo-List/
 
 **Piyush Barua**
 
-GitHub: https://github.com/your-username
+GitHub: (https://github.com/piyushbaruadebug)
 
-LinkedIn: https://linkedin.com/in/your-profile
+LinkedIn: https://www.linkedin.com/in/piyush-barua-6aa983327/
 
 
 
