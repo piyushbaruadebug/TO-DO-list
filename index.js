@@ -57,6 +57,8 @@
                 const filteredTasks = tasks.filter(task => {
                     if (currentFilter === 'active') return !task.completed;
                     if (currentFilter === 'completed') return task.completed;
+                   
+
                     return true;
                 });
                 
@@ -69,8 +71,8 @@
                     const taskElement = document.createElement('div');
                     taskElement.className = `task ${task.completed ? 'completed' : ''}`;
                     taskElement.innerHTML = `
-                        
-                        ${task.text}</span>
+                        <input type="checkbox" class="task-checkbox" data-id="${task.id}" ${task.completed ? 'checked' : ''}>
+                        <span class="task-text">${task.text}</span>
                         <button class="delete-btn" data-id="${task.id}">
                             <i class="fas fa-trash-alt"></i>
                         </button>
